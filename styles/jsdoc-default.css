@@ -257,8 +257,9 @@ article > dl, article > pre {
     display: block;
     padding: 4px 12px;
     margin: 0;
-    background-color: #fff;
-    color: #000;
+    background-color: #1b1b1b;
+    color: #f5d67b;
+    border-radius: 4px; 
 }
 
 .prettyprint code span.line
