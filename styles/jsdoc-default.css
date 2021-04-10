@@ -28,8 +28,12 @@ header
 {
     display: block;
     padding: 6px 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
+header h1{
+    text-align: center;
+}
 .class-description {
     font-style: italic;
     font-family: Palatino, 'Palatino Linotype', serif;
@@ -40,18 +44,18 @@ header
 }
 
 #main {
-    float: left;
     width: 100%;
+    position: relative;
 }
 
 section
 {
-    display: block;
-
+    position: absolute;
+    right: 0px;
     background-color: #fff;
+    width: 80%;
     padding: 12px 24px;
     border-bottom: 1px solid #ccc;
-    margin-right: 240px;
 }
 
 .variation {
@@ -70,12 +74,13 @@ nav
 {
     display: block;
     width: 220px;
-    border-left: 1px solid #ccc;
+    border-left: 1px solid rgb(0, 0, 0);
+    background-color:#DDD;
     padding-left: 9px;
-
+    width: 20%;
     position: fixed;
-    top: 28px;
-    right: 0;
+    top: 0px;
+    left: 0;
 }
 
 nav ul {
@@ -123,6 +128,7 @@ footer {
     margin-top: 12px;
     font-style: italic;
     font-size: 90%;
+    position:absolute;
 }
 
 h1
