@@ -4,7 +4,7 @@
 /* SPAN elements with the classes below are added by prettyprint. */
 /* plain text */
 .pln {
-  color: #4d4d4c; }
+  color: #f5d67b; }
 
 @media screen {
   /* string content */
@@ -29,7 +29,7 @@
 
   /* punctuation */
   .pun {
-    color: #4d4d4c; }
+    color: #f5d67b; }
 
   /* lisp open bracket */
   .opn {
